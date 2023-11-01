@@ -8,4 +8,5 @@ class ServerappController {
 
     @GetMapping("/")
     fun helloworld() = "Hello world!"
+
 }
