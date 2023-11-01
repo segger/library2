@@ -1,4 +1,4 @@
-package se.johannalynn.serverapp
+package se.johannalynn.springbooks
 
 import com.google.cloud.firestore.annotation.DocumentId
 import com.google.cloud.spring.data.firestore.Document

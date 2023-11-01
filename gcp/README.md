@@ -9,5 +9,5 @@
 
 ### gcloud app deploy
 ```
-gcloud app deploy serverapp.jar
+gcloud app deploy app.jar
 ```

@@ -1,4 +1,4 @@
-# serverapp
+# springbooks
 
 Minimal spring boot app serving REST API for books stored in firestore 
 
@@ -13,5 +13,5 @@ Add `spring.cloud.gcp.firestore.project-id` and `spring.cloud.gcp.firestore.cred
 
 ```
 ./gradlew build
-gcloud app deploy build/libs/serverapp-0.0.1-SNAPSHOT.jar
+gcloud app deploy build/libs/springbooks-0.0.1-SNAPSHOT.jar
 ```

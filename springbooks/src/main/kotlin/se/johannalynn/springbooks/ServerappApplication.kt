@@ -1,4 +1,4 @@
-package se.johannalynn.serverapp
+package se.johannalynn.springbooks
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
