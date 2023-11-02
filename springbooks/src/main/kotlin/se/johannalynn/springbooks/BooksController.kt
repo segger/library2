@@ -16,9 +16,8 @@ class BooksController(@Autowired val bookService: BookService) {
     fun count() = bookService.count()
 
     @PostMapping("","/")
-    fun store(@RequestBody book: Book) {
-        println(book)
-        bookService.save(book)
+    fun store(@RequestBody books: List<Book>) {
+        bookService.load(books)
     }
 
     @DeleteMapping("", "/")
@@ -26,4 +25,5 @@ class BooksController(@Autowired val bookService: BookService) {
 
     @GetMapping("", "/")
     fun retrieve() = bookService.retrieveAll()
+
 }

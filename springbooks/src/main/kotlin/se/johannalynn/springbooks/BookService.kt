@@ -12,4 +12,7 @@ class BookService(@Autowired val bookRepository: BookRepository) {
     fun retrieveAll() = bookRepository.findAll()
 
     fun save(book: Book) = bookRepository.save(book).subscribe()
+
+    fun load(books: List<Book>) = bookRepository.saveAll(books).subscribe()
+
 }
